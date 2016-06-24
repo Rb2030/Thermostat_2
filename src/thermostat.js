@@ -5,6 +5,8 @@ function Thermostat(){
   this._maxTemp = 100
 };
 
+"Pointless Code"
+
 Thermostat.prototype = {
   readTemperature: function(){
     return this._temperature;
